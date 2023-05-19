@@ -18,5 +18,7 @@
  * See package documentation for more information.
  */
 module one.util.streamex {
-  exports one.util.streamex;
+    requires kotlin.stdlib;
+    requires com.google.common;
+    exports one.util.streamex;
 }
